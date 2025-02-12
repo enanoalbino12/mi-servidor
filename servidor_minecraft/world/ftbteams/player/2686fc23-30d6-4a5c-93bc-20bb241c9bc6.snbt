@@ -1,0 +1,17 @@
+{
+	id: "2686fc23-30d6-4a5c-93bc-20bb241c9bc6"
+	type: "player"
+	player_name: "FOXY_116"
+	ranks: {
+		2686fc23-30d6-4a5c-93bc-20bb241c9bc6: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "FOXY_116"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFE7"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

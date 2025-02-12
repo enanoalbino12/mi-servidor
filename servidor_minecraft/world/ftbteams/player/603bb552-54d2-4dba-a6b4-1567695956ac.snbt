@@ -1,0 +1,17 @@
+{
+	id: "603bb552-54d2-4dba-a6b4-1567695956ac"
+	type: "player"
+	player_name: "Gojirax"
+	ranks: {
+		603bb552-54d2-4dba-a6b4-1567695956ac: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Gojirax"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5997FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

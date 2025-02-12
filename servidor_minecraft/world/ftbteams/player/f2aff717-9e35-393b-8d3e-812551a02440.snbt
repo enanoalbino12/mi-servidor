@@ -1,0 +1,17 @@
+{
+	id: "f2aff717-9e35-393b-8d3e-812551a02440"
+	type: "player"
+	player_name: "JoaKoThaBest"
+	ranks: {
+		f2aff717-9e35-393b-8d3e-812551a02440: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "JoaKoThaBest"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF7A"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

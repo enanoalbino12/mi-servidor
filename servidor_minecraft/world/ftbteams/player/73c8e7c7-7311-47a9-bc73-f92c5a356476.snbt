@@ -1,0 +1,17 @@
+{
+	id: "73c8e7c7-7311-47a9-bc73-f92c5a356476"
+	type: "player"
+	player_name: "Oyasumi_Jos"
+	ranks: {
+		73c8e7c7-7311-47a9-bc73-f92c5a356476: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Oyasumi_Jos"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFF6"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
