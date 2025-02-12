@@ -8,7 +8,7 @@
 	properties: {
 		"ftbteams:display_name": "Oyasumi_Jos"
 		"ftbteams:description": ""
-		"ftbteams:color": "#FFF959"
+		"ftbteams:color": "#FFA659"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 	}

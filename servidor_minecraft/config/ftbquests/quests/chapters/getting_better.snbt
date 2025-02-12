@@ -2,20 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "getting_better"
-	group: "37606A15E4A7A93E"
-	icon: {
-		Count: 1
-		id: "minecraft:diamond_chestplate"
-		tag: {
-			Damage: 0
-		}
-	}
+	group: ""
+	icon: { Count: 2, id: "minecraft:yellow_concrete_powder" }
 	id: "5CE5EDA0B5886B55"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["78BCF4021D1C5924"]
+			dependencies: ["27019A7FF1DA23DC"]
+			hide_until_deps_complete: true
 			id: "4C028F13F52AE20D"
 			rewards: [{
 				count: 3
@@ -24,8 +19,8 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 2.0d
-			subtitle: "Iron pickaxe is used to mine most of the materials. Will help you progress further! Quest available after finishing the iron quest in previous chapter!"
+			size: 1.0d
+			subtitle: "The iron pickaxe felt heavy in your hands—a symbol of progress and a tool for unlocking the earth's deeper secrets. With it, you could tear into the harder stone below, revealing treasures long hidden."
 			tasks: [{
 				consume_items: false
 				id: "2B6FB57EA9B3B906"
@@ -37,14 +32,16 @@
 					}
 				}
 				only_from_crafting: true
+				title: "Objective: Craft an iron pickaxe"
 				type: "item"
 			}]
-			title: "Craft an iron pickaxe!"
-			x: -2.0d
-			y: -0.5d
+			title: "Tools of Progress"
+			x: -8.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4C028F13F52AE20D"]
+			dependencies: ["397C840919B76779"]
+			hide_until_deps_complete: true
 			id: "7A51903B64DF6BC7"
 			rewards: [
 				{
@@ -58,27 +55,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "As you go down into the deepest levels of the world you might find some shiny diamonds!"
+			subtitle: "Then you saw it—a flicker of blue light in the gloom. A diamond, glittering like a promise of hope. But was it a gift or a trap?"
 			tasks: [{
 				consume_items: false
 				id: "3ED4507BB2627FE0"
 				item: "minecraft:diamond"
 				only_from_crafting: false
+				title: "Objective: Get 1 Diamond"
 				type: "item"
 			}]
-			title: "Find your first diamond!"
-			x: 0.5d
-			y: -3.0d
+			title: "A Shimmer in the Dark"
+			x: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7A51903B64DF6BC7"]
+			hide_until_deps_complete: true
 			id: "7FC62490A4966A66"
 			rewards: [{
 				id: "3A5D431D66B6E391"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "A pickaxe made from shiny diamonds, used to mine really hard materials and has much higher durability!"
+			subtitle: "With trembling hands, you forged your first diamond pickaxe—a tool worthy of the greatest miners. The possibilities felt endless. You were ready to face the hardest materials the world could offer."
 			tasks: [{
 				consume_items: false
 				id: "0EBEACA8D4439DAF"
@@ -90,14 +89,16 @@
 					}
 				}
 				only_from_crafting: true
+				title: "Objective: Craft a Diamond Pickaxe"
 				type: "item"
 			}]
-			title: "Create a diamond pickaxe!"
-			x: 3.0d
-			y: -3.5d
+			title: "The Pickaxe of Legends"
+			x: -5.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["7FC62490A4966A66"]
+			hide_until_deps_complete: true
 			id: "64B0BAFA3D2C33FD"
 			rewards: [{
 				count: 20
@@ -105,21 +106,23 @@
 				item: "minecraft:spectral_arrow"
 				type: "item"
 			}]
-			subtitle: "Thanks to your diamond pickaxe you can now mine an obsidian, a really hard and useful material. [Nether quests coming soon]"
+			subtitle: "The deeper you dug, the more you sensed... something. The silence felt unnatural, too perfect. Then you found it—obsidian. Dark and smooth, almost unnatural in its texture. Obsidian was powerful, but breaking it was no easy task. With your diamond pickaxe, you began the slow process of gathering the strange, hard stone."
 			tasks: [{
 				consume_items: false
 				count: 10L
 				id: "58A879086857F9CC"
-				item: { Count: 10, id: "minecraft:obsidian" }
+				item: "minecraft:obsidian"
 				only_from_crafting: false
+				title: "Objective: Get 10 Obsidian"
 				type: "item"
 			}]
-			title: "Mine 10 obsidian blocks!"
-			x: 5.0d
-			y: -2.0d
+			title: "Black as Night"
+			x: -5.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["4C028F13F52AE20D"]
+			hide_until_deps_complete: true
 			id: "397C840919B76779"
 			rewards: [
 				{
@@ -133,24 +136,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "In the depths of your world right under Y level 0 lies much harder material than stone."
+			subtitle: "You ventured deeper, past Y-level 0, into a land of dark stone—cobbled deepslate, dense and unyielding. The air was thick, the light dim. Beneath the weight of the world above, you carved out a path."
 			tasks: [{
 				consume_items: false
 				count: 64L
 				id: "0A518CDA2E3CB7B1"
 				item: "minecraft:cobbled_deepslate"
 				only_from_crafting: false
+				title: "Objective: Get 64 Cobbled Deepslate"
 				type: "item"
 			}]
-			title: "You've started branch mining!"
-			x: -4.5d
-			y: -2.0d
+			title: "The Depths Below"
+			x: -8.0d
+			y: -6.5d
 		}
 		{
-			dependencies: [
-				"7A51903B64DF6BC7"
-				"64B0BAFA3D2C33FD"
-			]
+			dependencies: ["64B0BAFA3D2C33FD"]
+			hide_until_deps_complete: true
 			id: "236C2D3A8FEA3D67"
 			rewards: [
 				{
@@ -165,18 +167,32 @@
 					xp: 10
 				}
 			]
-			subtitle: "Put a book and some diamond on obsidian and you get an enchanting table! You can now enhance your tools!"
+			subtitle: "You combined the obsidian with diamonds and a single book. Suddenly, you felt a surge of energy—the enchanting table thrummed with arcane power."
 			tasks: [{
+				consume_items: false
 				id: "6C8487F713596F2C"
 				item: "minecraft:enchanting_table"
+				only_from_crafting: true
+				title: "Objective: Craft an Enchanting Table"
 				type: "item"
 			}]
-			title: "You're a magician now!"
-			x: 2.5d
-			y: -1.0d
+			title: "A Whisper of Power"
+			x: -5.0d
+			y: -14.5d
 		}
 		{
-			dependencies: ["5D15524D828B2538"]
+			dependencies: [
+				"7A51903B64DF6BC7"
+				"236C2D3A8FEA3D67"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1101004B2F097B09"
 			rewards: [
 				{
@@ -202,9 +218,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Create a full set of diamond armor. Will make you much more durable and take less damage!"
+			subtitle: "Armed with magic and reinforced by diamonds, you started to feel... almost invincible. But deep down, you knew it woudn't be enough. Not yet. You gathered more diamonds, forging them into armor—each piece a shield against the horrors lurking in the shadows."
 			tasks: [
 				{
+					consume_items: false
 					id: "26BBA8BB28B24ABA"
 					item: {
 						Count: 1
@@ -213,9 +230,12 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
+					title: "Objective 1: Craft a Diamond Helmet"
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "37C45BE72392E2AA"
 					item: {
 						Count: 1
@@ -224,9 +244,12 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
+					title: "Objective 2: Craft a Diamond Chestplate"
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "7EDE0D1BC3DD4768"
 					item: {
 						Count: 1
@@ -235,9 +258,12 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
+					title: "Objective 3: Craft Diamond Leggings"
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "6F33D518A5E9A0F8"
 					item: {
 						Count: 1
@@ -246,39 +272,18 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: true
+					title: "Objective 4: Craft Diamond Boots"
 					type: "item"
 				}
 			]
-			title: "Now you might have a chance of survival! Maybe."
-			x: -0.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["7A51903B64DF6BC7"]
-			id: "5D15524D828B2538"
-			rewards: [{
-				id: "122F9118C034C59C"
-				item: "minecraft:spyglass"
-				type: "item"
-			}]
-			subtitle: "Create a diamond sword."
-			tasks: [{
-				id: "339280F64B3B0806"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Getting an upgrade!"
-			x: 0.0d
-			y: -5.5d
+			title: "Suit Up"
+			x: -8.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["1101004B2F097B09"]
+			hide_until_deps_complete: true
 			id: "52A13604C2A6B8E0"
 			rewards: [
 				{
@@ -306,8 +311,9 @@
 					type: "item"
 				}
 			]
-			subtitle: "A better version of diamond sword which deals a bit higher damage."
+			subtitle: "Your simple sword was no longer enough. You crafted a diamond longsword, its edge sharper and deadlier than anything you had wielded before."
 			tasks: [{
+				consume_items: false
 				id: "31BB286073BE6364"
 				item: {
 					Count: 1
@@ -316,23 +322,27 @@
 						Damage: 0
 					}
 				}
+				only_from_crafting: true
+				title: "Objective: Craft a Diamond Longsword"
 				type: "item"
 			}]
-			title: "Craft a bit better sword!"
-			x: -3.5d
-			y: -8.0d
+			title: "Blade of Precision"
+			x: -8.0d
+			y: -12.5d
 		}
 		{
-			dependencies: ["52A13604C2A6B8E0"]
-			hide_until_deps_complete: true
+			dependencies: ["27019A7FF1DA23DC"]
+			description: ["Completing this quest unlocks a Secret Quest in Chapter 3."]
 			id: "310A2C77D4C016D8"
+			invisible: true
 			rewards: [{
 				id: "59A625F81914C580"
 				item: "minecraft:enchanted_golden_apple"
 				type: "item"
 			}]
-			subtitle: "Even tho it's a little slower weapon than a sword, it deals much higher damage! Unlocks a quest road in Chapter 3 (Not yet available) [Secret Quest]"
+			subtitle: "Among your experiments with diamond weapons, you crafted a diamond battle axe—slower than a sword, but devastating in its power."
 			tasks: [{
+				consume_items: false
 				id: "1087C00082EA806D"
 				item: {
 					Count: 1
@@ -341,14 +351,20 @@
 						Damage: 0
 					}
 				}
+				only_from_crafting: true
+				title: "Objective: Craft a Diamond Battle Axe"
 				type: "item"
 			}]
-			title: "Oh, what is this? There are better diamond weapons?"
-			x: -5.5d
-			y: -6.5d
+			title: "Secret Quest: The Axe of Destruction"
+			x: -10.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["2FEA2648662A52A6"]
+			dependencies: [
+				"236C2D3A8FEA3D67"
+				"2FEA2648662A52A6"
+			]
+			hide_until_deps_complete: true
 			id: "3D958D214F74E36B"
 			rewards: [
 				{
@@ -380,7 +396,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Enchant any item once. Makes them much better!"
+			subtitle: "You placed your weapon on the enchanting table, offering it to the strange, glowing runes. It whispered promises of power. You accepted."
 			tasks: [{
 				icon: {
 					Count: 1
@@ -394,16 +410,17 @@
 				}
 				id: "3DBBDDB927EF235B"
 				stat: "minecraft:enchant_item"
-				title: "Enchant 1 item"
+				title: "Objective: Enchant an Item"
 				type: "stat"
 				value: 1
 			}]
-			title: "You learned how to enchant!"
-			x: 4.0d
-			y: 2.5d
+			title: "The First Enchantment"
+			x: -3.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["397C840919B76779"]
+			hide_until_deps_complete: true
 			id: "01F662E05E248681"
 			rewards: [
 				{
@@ -430,21 +447,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "You can rarely come across some abandoned mineshafts."
+			subtitle: "In your search for resources, you stumbled upon an abandoned mineshaft. The wooden beams groaned under the weight of the earth. You were not alone down here."
 			tasks: [{
+				icon: "minecraft:chest_minecart"
 				id: "7DA658FC3CC329E3"
 				structure: "minecraft:mineshaft"
-				title: "Find Structure: Mineshaft"
+				title: "Objective: Find a Mineshaft"
 				type: "structure"
 			}]
-			title: "Find a mineshaft!"
-			x: -7.5d
-			y: -2.0d
+			title: "Ghost of the Past"
+			x: -10.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["64B0BAFA3D2C33FD"]
-			hide_until_deps_complete: true
+			dependencies: ["27019A7FF1DA23DC"]
+			description: ["Completing this quest unlocks a Secret Quest in Chapter 3."]
 			id: "748B04628CA2AFE6"
+			invisible: true
 			rewards: [
 				{
 					count: 2
@@ -463,9 +482,16 @@
 					item: "minecraft:name_tag"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "19F981B89A209087"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
 			]
-			subtitle: "Craft a diamond hoe and start working on your farmlands! Unlocks a secret quest in Chapter 3 (Not yet available) [Secret Quest]"
+			subtitle: "For some, farming was a way of life. For you, it became an obsession. You crafted a diamond hoe, preparing to turn the earth into your ally."
 			tasks: [{
+				consume_items: false
 				id: "629975349DD20156"
 				item: {
 					Count: 1
@@ -474,42 +500,17 @@
 						Damage: 0
 					}
 				}
+				only_from_crafting: true
+				title: "Objective: Craft a Diamond Hoe"
 				type: "item"
 			}]
-			title: "You're really into farms, huh?"
-			x: 7.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3D958D214F74E36B"]
-			id: "6013E30C9119A6AD"
-			rewards: [
-				{
-					count: 2
-					id: "7C7783CFBBBCA0B1"
-					item: "farmersrespite:long_apple_cider"
-					type: "item"
-				}
-				{
-					advancement: "minecraft:adventure/trade"
-					criterion: ""
-					id: "29F37A6D47EA47FA"
-					type: "advancement"
-				}
-			]
-			subtitle: "Get to XP level 30. You can get much better enchantments now!"
-			tasks: [{
-				id: "676D9413324E71C7"
-				points: false
-				type: "xp"
-				value: 30L
-			}]
-			title: "Leveling Up!"
-			x: 7.0d
-			y: 2.5d
+			title: "Secret Quest: Master of the Fields"
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["236C2D3A8FEA3D67"]
+			hide_until_deps_complete: true
 			id: "2FEA2648662A52A6"
 			rewards: [
 				{
@@ -524,27 +525,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "You can't use an enchanting table without some lapis lazuli! And blue dye is also cool, right?"
-			tasks: [
-				{
-					count: 16L
-					id: "7D5EA565BA665A9E"
-					item: { Count: 16, id: "minecraft:lapis_lazuli" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "5F90906D4D077BDD"
-					item: { Count: 4, id: "minecraft:blue_dye" }
-					type: "item"
-				}
-			]
-			title: "Find Lapis Lazuli and turn it into blue dye!"
-			x: 1.5d
-			y: 1.5d
+			subtitle: "Without lapis, the enchanting table was nothing more than a relic. You needed to seek it out."
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "7D5EA565BA665A9E"
+				item: "minecraft:lapis_lazuli"
+				only_from_crafting: false
+				title: "Objective: Get 16 Lapis Lazuli"
+				type: "item"
+			}]
+			title: "The Key to Enchantment"
+			x: -6.5d
+			y: -16.0d
 		}
 		{
-			dependencies: ["01F662E05E248681"]
+			dependencies: [
+				"7A51903B64DF6BC7"
+				"01F662E05E248681"
+			]
+			hide_until_deps_complete: true
 			id: "3040B6759BEEADB7"
 			rewards: [
 				{
@@ -567,18 +567,73 @@
 					type: "item"
 				}
 			]
-			subtitle: "Deep inside the Deep Dark biome where sculk lies, you can come across a really dangerous place known as the Ancient City."
+			subtitle: "Deeper still, you reached the Deep Dark biome. The air grew colder, the ground covered in a strange blue substance—sculk. Far in the distance, you saw the towering ruins of an Ancient City, a place filled with treasures... and something far worse."
 			tasks: [{
+				icon: "minecraft:sculk_shrieker"
 				id: "1751AB22BA163B2F"
 				structure: "minecraft:ancient_city"
-				title: "Find Structure: Ancient City"
+				title: "Objective: Find an Ancient City"
 				type: "structure"
 			}]
-			title: "Go to a place where the sculk is found!"
-			x: -9.5d
-			y: -0.5d
+			title: "The Heart of Darkness"
+			x: -11.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["52A13604C2A6B8E0"]
+			hide_until_deps_complete: true
+			icon: { Count: 3, id: "minecraft:orange_concrete_powder" }
+			id: "6E477B7D795D82D5"
+			rewards: [{
+				auto: "enabled"
+				description: ""
+				icon: { Count: 3, id: "minecraft:orange_concrete_powder" }
+				id: "12498EC5BF05E3E8"
+				title: "You can now start with Chapter 3 quests!"
+				type: "toast"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "The deeper you ventured, the more the world seemed to turn against you. The shadows grew darker. The whispers became louder. But you pressed on, determined to conquer whatever lay ahead. Chapter 3 awaited—if you survived long enough to reach it."
+			tasks: [{
+				icon: { Count: 3, id: "minecraft:orange_concrete_powder" }
+				id: "2563066060BF4C8F"
+				stat: "minecraft:play_time"
+				title: "Chapter 3 is now available!"
+				type: "stat"
+				value: 1
+			}]
+			x: -8.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3E7E5C8553E55A1A"]
+			hide_until_deps_complete: true
+			id: "27019A7FF1DA23DC"
+			rewards: [{
+				auto: "enabled"
+				description: ""
+				icon: { Count: 2, id: "minecraft:yellow_concrete_powder" }
+				id: "28747C2E51EF8B86"
+				title: "Welcome to Chapter 2!"
+				type: "toast"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "The false comfort of your early survival faded quickly. The world grew darker, colder, and far more dangerous. With each step forward, you felt the earth beneath your feet changing—pulling you deeper into the unknown. Your instincts told you to turn back, but curiosity drove you onward."
+			tasks: [{
+				icon: { Count: 2, id: "minecraft:yellow_concrete_powder" }
+				id: "589BF12137477C73"
+				stat: "minecraft:play_time"
+				title: "Chapter 2 is now unlocked!"
+				type: "stat"
+				value: 1
+			}]
+			title: "Welcome to Chapter 2 of Cave Horror Project!"
+			x: -8.0d
+			y: -2.0d
 		}
 	]
-	subtitle: ["Get into the mines, find those shiny diamonds and get much better gear!"]
-	title: "Getting better! [Chapter 2]"
+	subtitle: ["Chapter 2 contains 12 Normal Quests and 2 Secret Quests!"]
+	title: "Into the Deep [Chapter 2]"
 }

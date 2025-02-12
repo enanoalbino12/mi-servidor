@@ -39,4 +39,6 @@
 	"Welcome message" = true
 	#Allow structure generations? Without them you will need to cheat to access the lower Crawling dimension layers or get ant colonies and termite-related items. Some tiny elements may still generate.
 	"Structure generation toggle" = true
+	#Keep enabled if you want to use the bonus rendering system for the Tormentor, featuring infinite render distance for the entity along with modifying fog distance accordingly, plus fog colour when nearby
+	"Special Tormentor rendering" = true
 
