@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "d21b1471f6ac359d93710efd4df83a90"
+	name: "Oyasumi_Jos#d21b1471"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
